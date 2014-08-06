@@ -1,0 +1,119 @@
+/** {
+	outline: 1px solid black;
+}*/
+
+#top {
+	width: 100%;
+	height: 150px;
+	margin-top: 0px;
+}
+
+#bottom {
+	width: 100%;
+	height: 70px;
+	bottom: 0;
+	margin-top: 530px;
+	border-style: none;
+	font-family: 'Lato', sans-serif;
+}
+
+#title {
+	font-size: 70px;
+	padding-top: 50px;
+	padding-left: 640px;
+	font-family: 'Lato', sans-serif;
+}
+
+li {
+	list-style: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 50px;
+	margin-left: 450px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	vertical-align: middle;
+	border-radius: 20px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	width: 450px;
+}
+
+#add > li {
+	background-color: yellow;
+	transition: background-color 150ms linear;
+}
+
+#add > li:hover {
+	background-color: #FFFF8C;
+	transition: background-color 150ms linear;
+}
+
+#done > li {
+	background-color: #BDBD28;
+	transition: background-color 200ms linear;
+}
+
+#done > li:hover {
+	background-color: #91AD58;
+	transition: background-color 200ms linear;
+}
+
+#howto {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+#additem {
+	width: 350px;
+	height: 30px;
+	margin-left: 500px;
+	border-radius: 20px;
+	border-style: solid;
+	font-size: 15px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+#additem:focus {
+	outline: none;
+}
+
+#button {
+	background-color: orange;
+	outline: none;
+	border-style: none;
+	width: 60px;
+	height: 35px;
+	font-family: "Lato", sans-serif;
+	border-radius: 20px;
+	margin-left: 10px;
+	transition: background-color 200ms linear;
+
+}
+
+#button:hover {
+	background-color: #C98B26;
+	transition: background-color 200ms linear;
+}
+
+::-webkit-input-placeholder {
+	font-size: 15px;
+	text-align: center;
+	line-height: -40px;
+	font-family: 'Lato', sans-serif;
+}
+
+/*add the rest of input placeholders for mozilla, explorer, etc */
+
+
+
+
+#remove {
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+	color: #91AD58;
+	margin-left: 542px;
+}
+
+

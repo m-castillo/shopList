@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Listo! - List Done Easier</title>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+	<script src="app.js"></script>
+</head>
+<body>
+	<div id="top">
+		<p id="title">Listo!</p>
+	</div>
+
+
+	<div id="items">
+		<p id="howto">Add your shopping items below. Click "Add" or hit Enter. Listo!</p>
+		<input type="text" id="additem" name="additem" placeholder="Let's shop!">
+		<button id="button">Add</button>
+		<ul id="add">
+			<li>Click to show it is done (it will move last)</li>
+		</ul>
+	</div>
+
+	<div class="last">
+		<ul id="done">
+			<li>Your checked items are here</li>
+			<li>Opps moment? Click again to put this back on top!</li>
+			<li>Happy Shopping!</li>
+		</ul>
+	</div>
+
+	<div class="delete">
+		<p id="remove">Remove checked items when you are done</p>
+	</div>
+
+
+	<div id="bottom"></div>
+	
+</body>
+</html>
